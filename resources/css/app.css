@@ -1,0 +1,68 @@
+html {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.note-header h1 {
+    text-transform: uppercase;
+}
+.note-container {
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.note {
+    border-radius: 8px;
+    box-shadow: 1px 12px 12px 8px #00000029;
+    padding: 1rem 2rem;
+}
+.note-text {
+    font-size: 0.6rem;
+    line-height: 1.5;
+    color: #696969;
+}
+.note-methods a:link,
+.note-methods a:visited,
+.new-note-btn {
+    background-color: rgb(65, 134, 214);
+    text-decoration: none;
+    font-size: 0.4rem;
+    color: #ffffff;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+.new-note-btn:link,
+.new-note-btn:visited {
+    background-color: orangered;
+    font-size: 0.6rem;
+    padding: 0.2rem 0.4rem;
+}
+.note-properties {
+    margin-top: 8px;
+    font-size: 0.4rem;
+    background-color: rgba(255, 68, 0, 0.129);
+    border-radius: 2px;
+    padding: 5px 10px;
+    /* color: #fff; */
+    display: flex;
+    justify-content: space-between;
+}
+.delete-btn:link,
+.delete-btn:visited {
+    background-color: rgb(210, 97, 97) !important;
+}
+.edit-btn:link,
+.edit-btn:visited {
+    background-color: rgb(76, 139, 76) !important;
+}
